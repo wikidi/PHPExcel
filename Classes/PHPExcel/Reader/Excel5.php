@@ -1056,6 +1056,7 @@ class PHPExcel_Reader_Excel5 extends PHPExcel_Reader_Abstract implements PHPExce
                             break;
                         case 0x08:
 //                            echo 'Picture Object<br />';
+							break;
                             // picture
                             // get index to BSE entry (1-based)
                             $BSEindex = $spContainer->getOPT(0x0104);
